@@ -1,0 +1,91 @@
+*{
+  background-color: black;
+        font-family: "Press Start 2P", system-ui;
+
+}
+.content{
+  width: 125vh;
+  margin-left: 40vh;
+  margin-top: 20vh;
+  
+}
+.doc, .em,.tarjeta, h1{
+  color: white;
+}
+h1{
+  margin-bottom: 13vh;
+}
+input:valid {
+  color: #0ece0e;
+}
+
+input:invalid {
+  color: #d82e2e;
+}
+
+#email_input[type="email"]{
+    background-color: #1512bd;
+}
+input:focus{
+    border-radius: 2vh;
+    border: solid rgb(255, 0, 157);
+}
+
+
+
+#numero::before{
+  content: ''; 
+  position:absolute; 
+  top: 2.5vh;
+  margin-right: 1vh;
+  background-image: url(imagenes/pika.png); 
+  background-size: contain; 
+  background-repeat: no-repeat;
+  background-position: center; 
+  width: 3vh; 
+  height: 3vh; 
+  pointer-events: none;
+  z-index: 1; 
+  margin-left:39vh ;
+}
+
+.logo{
+  position: relative;
+}
+
+.tarjeta {
+  text-align: center;
+  font-size: 1vh;
+  width: 18vh;
+  height: 7vh;
+  position: relative;
+  border: 0.1vh solid #e71b1b;
+  padding: 1vh;
+  top: 5vh;
+  margin-bottom: 6vh;
+  border-radius: 3vh;
+}
+.eliminar {
+  font-size: 0.8vh;
+  width: 9vh;
+  height: 3vh;
+  position: absolute; 
+  top: 5vh;
+  left: 5.5vh;    
+  background-color: red;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  border-radius: 2vh;
+}
+.hijo:first-child{
+  color: #e71b1b;
+}
+
+.logo{
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+
